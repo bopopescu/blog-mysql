@@ -2,15 +2,15 @@
 
     {% if messages %}
 
-    <div class="flashes">
+        <div class="flashes">
 
-        {% for category, message in messages %}
+            {% for category, message in messages %}
 
-        <div class="alert alert-{{ category }}">{{ message }}</div>
+                <div class="alert alert-{{ category }}">{{ message }}</div>
 
-        {% endfor %}
+            {% endfor %}
 
-    </div>
+        </div>
 
     {% endif %}
 
