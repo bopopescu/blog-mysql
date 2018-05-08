@@ -1,4 +1,4 @@
-from app import db
+from app import db # no ololo
 from app import app
 
 import view
